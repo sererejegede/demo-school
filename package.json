@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@vue/devtools": "^5.0.6",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "jquery": "^3.4.1",
     "jsdom": "^15.1.0",
     "nativescript-socketio": "^3.2.1",
