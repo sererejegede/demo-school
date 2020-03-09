@@ -1,0 +1,26 @@
+<Page actionBarHidden="true">
+  <FlexboxLayout class="page">
+    <Image src="~/assets/images/NativeScript-Vue.png" class="logo" stretch="none" />
+    <FlexboxLayout class="border-bottom" alignItems="center">
+      <Image src="~/assets/android_icons/baseline_account_circle_black_18dp.png" class="icon-space" stretch="none" />
+      <TextField hint="Enter Word" class="form-input" v-model="word" />
+    </FlexboxLayout>
+    
+    <FlexboxLayout alignItems="center">
+      <Button text="Submit" @tap="unscramble" />
+    </FlexboxLayout>
+    <!--<StackLayout class="form">
+        <Image src="~/assets/images/NativeScript-Vue.png" class="logo" stretch="none" />
+        <GridLayout rows="auto auto auto" colums="">
+          <StackLayout row="0" class="input-field">
+            <TextField hint="Email" text="" keyboardType="email" autocorrect="false" />
+          </StackLayout>
+        </GridLayout>
+        <GridLayout rows="auto auto auto" colums="">
+          <StackLayout row="0" class="input-field">
+            <TextField hint="Password" text="" keyboardType="text" autocorrect="false" />
+          </StackLayout>
+        </GridLayout>
+      </StackLayout>-->
+  </FlexboxLayout>
+</Page>
